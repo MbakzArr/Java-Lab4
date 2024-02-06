@@ -1,7 +1,6 @@
 /**
  * Represents a novel with title, author name, and year published.
  *
- * @author Idah Khumalo and Prince Lucas Motubatse.
  * @version 1.6
  */
 class Novel

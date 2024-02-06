@@ -4,7 +4,6 @@ import java.util.ArrayList;
 /**
  * Represents a bookstore with a name and collection of novels.
  *
- * @author Idah Khumalo and Prince Lucas Motubatse.
  * @version 1.6
  */
 class BookStore
