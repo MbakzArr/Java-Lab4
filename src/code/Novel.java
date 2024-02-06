@@ -1,41 +1,41 @@
 /**
- * Represents individual novels within the bookstore.
- * @author Prince Lesapo and Jimmy Aphane.
- * @version 1.0
+ * Represents a novel with title, author name, and year published.
+ *
+ * @author Idah Khumalo and Prince Lucas Motubatse.
+ * @version 1.6
  */
-
-class Novel {
-    private final String novelTitle;
+class Novel
+{
+    private final String title;
     private final String authorName;
-    private final int yearPublished;
+    private final int    yearPublished;
 
     /**
-     * Constructor to create a Novel object.
-     * @param novelTitle The title of the novel.
-     * @param authorName The name of the author.
-     * @param yearPublished The year the novel was published.
+     * Constructor
+     *
+     * @param title         The title of the book.
+     * @param authorName    The authors' name of the book.
+     * @param yearPublished The year which the book was published.
      */
-    Novel(final String  novelTitle,
-          final String  authorName,
-          final int     yearPublished)
+    Novel(final String title,
+          final String authorName,
+          final int    yearPublished)
     {
-        this.novelTitle     = novelTitle;
-        this.authorName     = authorName;
-        this.yearPublished  = yearPublished;
+        this.title         = title;
+        this.authorName    = authorName;
+        this.yearPublished = yearPublished;
     }
 
     /**
-     * Returns the title of the novel.
-     * @return The title of the novel.
+     * @return The title of the book.
      */
-    public String getNovelTitle()
+    public String getTitle()
     {
-        return novelTitle;
+        return title;
     }
 
     /**
-     * Returns the name of the author.
-     * @return The name of the author.
+     * @return The author's name of the book.
      */
     public String getAuthorName()
     {
@@ -43,8 +43,7 @@ class Novel {
     }
 
     /**
-     * Returns the year the novel was published.
-     * @return The year the novel was published.
+     * @return The year the book was published.
      */
     public int getYearPublished()
     {
